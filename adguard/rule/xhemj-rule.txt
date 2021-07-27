@@ -1,0 +1,16 @@
+||tajs.qq.com^
+||google-analytics.com^
+||hm.baidu.com^
+||ers.baidu.com^
+||clustrmaps.com^
+||cnzz.com^
+||statcounter.com^
+||googlesyndication.com
+||users.51.la^
+||js.users.51.la^
+||flagcounter.me^
+||flagcounter.com^
+||static.hotjar.com^
+||hotjar.com^
+||script.hotjar.com^
+||park.zunmi.cn^$document
