@@ -1,1 +1,1 @@
-* [推荐📚](pages/book.md)
+* [推荐📚](pages/book)
