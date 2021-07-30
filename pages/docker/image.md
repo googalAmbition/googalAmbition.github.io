@@ -100,3 +100,20 @@ docker image prune
 常用参数
 - `-a, --all `: 删除所有没有用的镜像，而不仅仅是临时文件；
 - `-f, --force` ：强制删除镜像文件，无需弹出提示确认；
+
+## 杀掉容器
+docker kill :杀掉一个运行中的容器。
+**语法**
+```shell
+docker kill [OPTIONS] CONTAINER [CONTAINER...]
+```
+**执行命令**
+```shell
+docker run -it --name tomcat9 -p 8081:8080 tomcat:9.0.20-jre8-alpine
+docker kill tomcat9
+docker ps
+docker ps -a
+docker start tomcat9
+```
+常用参数
+- `-s` :向容器发送一个信号

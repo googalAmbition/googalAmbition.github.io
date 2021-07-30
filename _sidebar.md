@@ -97,8 +97,7 @@
   * Docker快速入门
     * [命令分类](pages/docker/command)
     * [Docker image](/pages/docker/image)
-    * [Docker container](/pages/docker/command)
-    * [Docker 命令汇总](/pages/docker/command)
+    * [Docker container](/pages/docker/container)
   * 核心原理
     * [虚拟化技术](/pages/docker/command)
     * [Docker network](/pages/docker/command)
@@ -133,20 +132,34 @@
 ### 面试
 * 简历
 * 内推
-* 字节
-* 阿里
-* 腾讯
-* 美团
-* 京东
-* 华为
-* 百度
-* 小米
-* 拼多多
-* 快手
-* 脉脉
-* 知乎
-* 陌陌
-* 网易
+
+[comment]: <> (* 字节)
+
+[comment]: <> (* 阿里)
+
+[comment]: <> (* 腾讯)
+
+[comment]: <> (* 美团)
+
+[comment]: <> (* 京东)
+
+[comment]: <> (* 华为)
+
+[comment]: <> (* 百度)
+
+[comment]: <> (* 小米)
+
+[comment]: <> (* 拼多多)
+
+[comment]: <> (* 快手)
+
+[comment]: <> (* 脉脉)
+
+[comment]: <> (* 知乎)
+
+[comment]: <> (* 陌陌)
+
+[comment]: <> (* 网易)
 
 
 
