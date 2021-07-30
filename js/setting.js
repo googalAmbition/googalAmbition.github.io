@@ -1,5 +1,5 @@
 window.$docsify = {
-        name: 'ctc文档中心',
+        name: '',
         repo: '',
         loadSidebar: true,
         loadNavbar: true,
@@ -23,7 +23,7 @@ window.$docsify = {
             paths: '/',
             placeholder: '搜索...',
             noData: '未找到结果，换个搜索词试试？',
-            namespace: 'XhemjBlog',
+            namespace: 'ctc',
         },
         //底部上下篇插件
         pagination: {
@@ -32,6 +32,7 @@ window.$docsify = {
             crossChapter: true,
             crossChapterText: true,
         },
+
 //        //docsify黑暗模式插件
 //        dark: {
 //            background: "#1c2022",
