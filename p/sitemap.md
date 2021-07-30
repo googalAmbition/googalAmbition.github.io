@@ -9,6 +9,8 @@
 * [Xhemj发布的所有视频](/p/video)
 * [一起Karken这个世界-台词](/p/KrakenSHark)
 * [关于xhemj](/p/about-me)
+* [推荐📚](pages/book)
+* [常用命令](/pages/docker/command)
 #### ERSS解集
 * [数学老王](/Solve/sx-lw)
 * [数学潘哥](/Solve/sx-pg)
