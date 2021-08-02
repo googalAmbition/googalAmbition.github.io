@@ -99,19 +99,24 @@
     * [Docker image](/pages/docker/image)
     * [Docker container](/pages/docker/container)
   * 核心原理
-    * [虚拟化技术](/pages/docker/command)
-    * [Docker network](/pages/docker/command)
-    * [Docker compose](/pages/docker/command)
-    * [Docker 私服](/pages/docker/command)
-    * [Dockerfile](/pages/docker/command)
-    * [部署为服务项目](/pages/docker/command)
-    * [idea集成docker](/pages/docker/command)
-  * 运维管理
-    * [mysql安装](/pages/docker/command)
-    * [es安装](/pages/docker/command)
-    * [gitlab安装](/pages/docker/command)
-    * [swarm集群管理](/pages/docker/command)
-    * [harbor企业级部署](/pages/docker/command)
+    * [虚拟化技术](/pages/docker/virtual)
+    * [Docker network](/pages/docker/network)
+    * [Docker volumes](/pages/docker/volumes)
+    * [Docker compose](/pages/docker/compose)
+    * [Docker harbor(私服)](/pages/docker/harbor)
+    * [Dockerfile](/pages/docker/dockerfile)
+
+[comment]: <> (  * 运维管理)
+
+[comment]: <> (    * [mysql安装]&#40;/pages/docker/command&#41;)
+
+[comment]: <> (    * [es安装]&#40;/pages/docker/command&#41;)
+
+[comment]: <> (    * [gitlab安装]&#40;/pages/docker/command&#41;)
+
+[comment]: <> (    * [swarm集群管理]&#40;/pages/docker/command&#41;)
+
+[comment]: <> (    * [harbor企业级部署]&#40;/pages/docker/command&#41;)
 * [K8S](pages/docker/)
 * [Jenkins](pages/docker/)
 * [APM](pages/docker/)
