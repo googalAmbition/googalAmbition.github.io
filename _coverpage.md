@@ -1,3 +1,4 @@
-<a href='#/home' name='/' >进入文档</a>
+[进入文档](/home)
+[读书清单](/pages/book)
 
 

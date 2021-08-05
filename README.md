@@ -1,12 +1,137 @@
-[comment]: <> (# 为什么写？)
+# 目录
 
-[comment]: <> (1. 工作5年以来，技术上感觉还是一片混沌)
+### [预览](/)
 
-[comment]: <> (2. 同样的技术看了一遍又一遍，经常忘)
+* 推荐📚
+* 学习资源
+* 数据结构
+* 算法
+* 工具
+* 个人博客搭建
+* zsh
+* 命令行的艺术
 
-[comment]: <> (3. 自己会，和写出来是两个不同的层次)
+### 基础
+* JVM
+* Java 并发编程
+* JDK 源码阅读
+* Git
+* Gradle
+* Maven
+* 设计模式
+* 计算机网络
+* Shell
+* GO
+* Python
+* Kotlin
+* HTML
+* JS
+* CSS
+* Scala
+* React
+* Vue
+* Guava
+* 微信小程序
+* 程序员数学
+* 操作系统
+* 编程规范
+* Json
 
-[comment]: <> (4. 到了瓶颈，需要重新整理出发)
 
-> 我也不知道为啥写，为了一份坚持
+### 框架
+* MyBatis
+  * 基础
+  * 源码
+  * MyBatis Plus
+* Spring
+  * Spring
+  * Spring IoC
+  * Spring AOP
+  * Spring MVC
+  * Spring Data
+* Spring Security
+* Spring Cloud
+* Spring Retry
+* Shiro
+* Netty
+* Thrift
+* gRPC
+* Dubbo
+* ZooKeeper
+* Kafka
+* RabbitMQ
+* RocketMQ
+* ActiveMQ
+* Tomcat
+* Nginx
+* FastDFS
+* 分布式事务
+* 分布式锁
+
+### 数据库
+* MySql
+* Mycat
+* ShardingSphere
+* Neo4j
+* Redis
+* Mongo
+* Postgre
+* Durid
+* es
+* Doris
+* OOS
+
+### 大数据
+* Hadoop
+* Hdfs
+* Hive
+* HBase
+* Spark
+* Storm
+* Flink
+
+### 云
+* Docker
+  * Docker快速入门
+    * 命令分类
+    * Docker image
+    * Docker container
+  * 核心原理
+    * 虚拟化技术
+    * Docker network
+    * Docker volumes
+    * Docker compose
+    * Docker harbor(私服)
+    * Dockerfile
+* K8S
+* Jenkins
+* APM
+* Linux 性能优化
+
+### 人工智能
+* 深度学习
+* 自然语言处理
+* 计算机视觉
+* 智能机器人
+* 自动程序设计
+* 数据挖掘
+* 神经网络
+* 机器学习
+
+### 理论
+
+* 加密
+* 安全
+* JWT
+* Oauth
+* 分布式理论
+* 系统设计
+* 技术选型
+* 推动项目
+* 程序员修养
+
+### 面试
+* 简历
+* 内推
+
 
