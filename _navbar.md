@@ -1,6 +1,6 @@
 * [站点地图](/home)  
 * 导航
-  * [云](/pages/docker/)
+  * [云](/pages/menu/cloud)
 * [读书清单📚](pages/book)
 * [学习资源](/pages/wait)
 

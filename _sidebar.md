@@ -14,6 +14,7 @@
 * JVM
 * Java 并发编程
 * JDK 源码阅读
+* [SPI](pages/java/spi)
 * Git
 * Maven
 * [设计模式](/pages/design/)
