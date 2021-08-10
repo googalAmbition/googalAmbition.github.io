@@ -1,12 +1,12 @@
 * [主页](/)
+* [程序员常用网站](pages/head/website)
 * [读书清单📚](pages/book)
+* [极客时间左耳朵耗子专栏](pages/head/list)
 * [影视娱乐](pages/head/video)
-* [学习资源](pages/wait)
 * [算法](pages/head/algorithm)
 * [个人博客搭建](pages/head/blog)
 * [iTerm + zsh](pages/head/zsh)
 * [命令行的艺术](pages/linux/command)
-
 
 ### 基础
 * JVM
