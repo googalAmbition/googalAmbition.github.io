@@ -1,13 +1,11 @@
 * [主页](/)
-* [读书清单📚](/pages/book)
-* [影视娱乐](/pages/head/video)
-* [学习资源](/pages/wait)
-* 数据结构
-* [算法](/pages/head/algorithm)
-* 工具
-* [个人博客搭建](/pages/head/blog)
-* zsh
-* 命令行的艺术
+* [读书清单📚](pages/book)
+* [影视娱乐](pages/head/video)
+* [学习资源](pages/wait)
+* [算法](pages/head/algorithm)
+* [个人博客搭建](pages/head/blog)
+* [iTerm + zsh](pages/head/zsh)
+* [命令行的艺术](pages/linux/command)
 
 
 ### 基础
@@ -15,12 +13,14 @@
 * Java 并发编程
 * JDK 源码阅读
 * [SPI](pages/java/spi)
-* Git
+* [Git](pages/java/git)
 * Maven
-* [设计模式](/pages/design/)
+* [设计模式](pages/design/)
 * 计算机网络
 * Json
-
+  * Gson
+  * fastJson
+  * jackson
 
 ### 框架
 * MyBatis
@@ -28,11 +28,11 @@
   * 源码
   * MyBatis Plus
 * Spring
-  * [Spring](/pages/spring/)
-  * [Spring IoC](/pages/wait)
-  * [Spring AOP](/pages/wait)
-  * [Spring MVC](/pages/wait)
-  * [Spring Data](/pages/wait)
+  * [Spring](pages/spring/)
+  * [Spring IoC](pages/wait)
+  * [Spring AOP](pages/wait)
+  * [Spring MVC](pages/wait)
+  * [Spring Data](pages/wait)
 * Spring Security
 * Spring Cloud
 * Spring Retry
@@ -43,7 +43,7 @@
   * gRPC
   * protobuf
   * rmi
-  * [基于Netty手写RPC](/pages/rpc/netty-rpc)
+  * [基于Netty手写RPC](pages/rpc/netty-rpc)
 * Dubbo
 * ZooKeeper
 * Kafka
@@ -85,19 +85,19 @@
 * [Docker](pages/docker/)
   * Docker快速入门
     * [命令分类](pages/docker/command)
-    * [Docker image](/pages/docker/image)
-    * [Docker container](/pages/docker/container)
+    * [Docker image](pages/docker/image)
+    * [Docker container](pages/docker/container)
   * 核心原理
-    * [虚拟化技术](/pages/docker/virtual)
-    * [Docker network](/pages/docker/network)
-    * [Docker volumes](/pages/docker/volumes)
-    * [Docker compose](/pages/docker/compose)
-    * [Docker harbor(私服)](/pages/docker/harbor)
-    * [Dockerfile](/pages/docker/dockerfile)
+    * [虚拟化技术](pages/docker/virtual)
+    * [Docker network](pages/docker/network)
+    * [Docker volumes](pages/docker/volumes)
+    * [Docker compose](pages/docker/compose)
+    * [Docker harbor(私服)](pages/docker/harbor)
+    * [Dockerfile](pages/docker/dockerfile)
 * [K8S](pages/docker/)
 * [Jenkins](pages/docker/)
 * [APM](pages/docker/)
-* [Linux 性能优化](/pages/linux/)
+* [Linux 性能优化](pages/linux/)
 
 ### 理论
 * 计算机组成原理

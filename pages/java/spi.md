@@ -19,7 +19,15 @@ SPI遵循如下约定：
 的配置文件找到实现类的全限定名，把类加载到JVM；
 4. SPI的实现类必须携带一个无参构造方法；
 
+**demo** 
+
+[java_spi_demo](https://github.com/googalAmbition/spi-demo/tree/main/java_spi_demo)
+
 ## Dubbo中的SPI
 dubbo中大量的使用了SPI来作为扩展点，通过实现同一接口的前提下，可以进行定制自己的实现类。
 比如比较常见的协议，负载均衡，都可以通过SPI的方式进行定制化，自己扩展。Dubbo中已经存在的
 所有已经实现好的扩展点。
+
+**demo**
+
+[dubbo_spi_demo](https://github.com/googalAmbition/spi-demo/tree/main/dubbo_spi_demo)
