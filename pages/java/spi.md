@@ -19,15 +19,169 @@ SPI遵循如下约定：
 的配置文件找到实现类的全限定名，把类加载到JVM；
 4. SPI的实现类必须携带一个无参构造方法；
 
-**demo** 
+## 实战
 
-[java_spi_demo](https://github.com/googalAmbition/spi-demo/tree/main/java_spi_demo)
+目录结构
+![img_1.png](img_1.png)
+1. 定义接口
+```java
+public interface HelloService {
+
+    String sayHello();
+}
+```
+
+2. 实现
+
+```java
+public class DogHelloService implements HelloService {
+
+    @Override
+    public String sayHello() {
+        return "wang wang";
+    }
+}
+```
+```java
+public class HumanHelloService implements HelloService {
+
+    @Override
+    public String sayHello() {
+        return "hello 你好";
+    }
+}
+```
+
+`META-INF/services`文件下新建`com.lagou.service.HelloService`文件
+
+内容如下
+```
+com.lagou.service.impl.DogHelloService
+com.lagou.service.impl.HumanHelloService
+```
+
+3. SPI使用
+```java
+import java.util.ServiceLoader;
+public class JavaSpiMain {
+
+    public static void main(String[] args) {
+        final ServiceLoader<HelloService> helloServices = ServiceLoader.load(HelloService.class);
+        for (HelloService helloService: helloServices) {
+            System.out.println(helloService.getClass().getName() + ":" + helloService.sayHello());
+        }
+    }
+}
+```
+
+
+[代码地址](https://github.com/googalAmbition/spi-demo/tree/main/java_spi_demo)
 
 ## Dubbo中的SPI
 dubbo中大量的使用了SPI来作为扩展点，通过实现同一接口的前提下，可以进行定制自己的实现类。
 比如比较常见的协议，负载均衡，都可以通过SPI的方式进行定制化，自己扩展。Dubbo中已经存在的
 所有已经实现好的扩展点。
 
-**demo**
+## 实战
 
-[dubbo_spi_demo](https://github.com/googalAmbition/spi-demo/tree/main/dubbo_spi_demo)
+目录结构
+![img_2.png](img_2.png)
+
+1. 定义接口
+```java
+import org.apache.dubbo.common.URL;
+import org.apache.dubbo.common.extension.Adaptive;
+import org.apache.dubbo.common.extension.SPI;
+@SPI("human")
+public interface HelloService {
+
+    String sayHello();
+
+    @Adaptive
+    String sayHello(URL url);
+}
+```
+
+2. 实现
+```java
+import com.lagou.service.HelloService;
+import org.apache.dubbo.common.URL;
+public class DogHelloService implements HelloService {
+
+    @Override
+    public String sayHello() {
+        return "wang wang";
+    }
+
+    @Override
+    public String sayHello(URL url) {
+        return "wang url";
+    }
+}
+```
+
+
+```java
+
+import org.apache.dubbo.common.URL;
+public class HumanHelloService implements HelloService {
+
+    @Override
+    public String sayHello() {
+        return "hello 你好";
+    }
+
+    @Override
+    public String sayHello(URL url) {
+        return "hello url";
+    }
+}
+```
+
+`META-INF/dubbo`文件下新建`com.lagou.service.HelloService`文件
+**注意：**之前是在services下
+
+内容如下
+```
+human=com.lagou.service.impl.HumanHelloService
+dog=com.lagou.service.impl.DogHelloService
+```
+
+
+3. 使用
+
+```java
+import org.apache.dubbo.common.URL;
+import org.apache.dubbo.common.extension.ExtensionLoader;
+
+public class DubboAdaptiveMain {
+
+    public static void main(String[] args) {
+        URL url = URL.valueOf("test://localhost/hello?hello.service=dog");
+        HelloService adaptiveExtension = ExtensionLoader.getExtensionLoader(HelloService.class).getAdaptiveExtension();
+        String msg = adaptiveExtension.sayHello(url);
+        System.out.println(msg);
+    }
+}
+```
+```java
+import org.apache.dubbo.common.extension.ExtensionLoader;
+
+import java.util.Set;
+
+public class DubboSpiMain {
+
+    public static void main(String[] args) {
+        // 获取扩展加载器
+        ExtensionLoader<HelloService> extensionLoader = ExtensionLoader.getExtensionLoader(HelloService.class);
+        // 遍历所有的支持的扩展点 META-INF.dubbo
+        Set<String> extensions = extensionLoader.getSupportedExtensions();
+        for (String extension: extensions) {
+            String result = extensionLoader.getExtension(extension).sayHello();
+            System.out.println(result);
+        }
+    }
+}
+```
+
+[代码地址](https://github.com/googalAmbition/spi-demo/tree/main/dubbo_spi_demo)

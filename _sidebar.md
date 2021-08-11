@@ -37,12 +37,12 @@
 * Spring Cloud
 * Spring Retry
 * Shiro
-* Netty
-* RPC
+* [RPC](pages/rpc/rpc)
   * Thrift
   * gRPC
   * protobuf
   * rmi
+  * Netty
   * [基于Netty手写RPC](pages/rpc/netty-rpc)
 * Dubbo
 * ZooKeeper
