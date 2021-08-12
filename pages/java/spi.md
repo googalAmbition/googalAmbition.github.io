@@ -88,6 +88,8 @@ dubbo中大量的使用了SPI来作为扩展点，通过实现同一接口的前
 ![img_2.png](img_2.png)
 
 1. 定义接口
+
+
 ```java
 import org.apache.dubbo.common.URL;
 import org.apache.dubbo.common.extension.Adaptive;
@@ -103,6 +105,8 @@ public interface HelloService {
 ```
 
 2. 实现
+
+
 ```java
 import com.lagou.service.HelloService;
 import org.apache.dubbo.common.URL;

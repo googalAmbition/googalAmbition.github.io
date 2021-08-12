@@ -5,7 +5,7 @@ window.$docsify = {
         loadNavbar: '_navbar.md',
         coverpage: true,
         // subMaxLevel: 1,
-        auto2top: false,
+        auto2top: true,
         // sidebarDisplayLevel: 4,
         relativePath: false,
         // themeColor: '#c30aff',
@@ -53,9 +53,9 @@ window.$docsify = {
         //     pre: '<hr>',
         //     style: 'text-align: center;'
         // },
-        remoteMarkdown: {
-                tag: 'md',
-        },
+        // remoteMarkdown: {
+        //         tag: 'md',
+        // },
         count:{
                 countable:true,
                 fontsize:'0.9em',
