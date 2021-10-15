@@ -7,22 +7,44 @@
 * [个人博客搭建](pages/head/blog)
 * [iTerm + zsh](pages/head/zsh)
 * [命令行的艺术](pages/linux/command)
+* [学习资源汇总](pages/head/source)
 
 ### 基础
-* JVM
-* Java 并发编程
-* JDK 源码阅读
+
+* [JVM](pages/jvm/)
+  * [虚拟机内存管理](pages/jvm/storage)
+  * [JVM类加载机制](pages/jvm/class)
+  * [垃圾回收机制及算法](pages/jvm/garbage)
+  * [常用指令与可视化调试工具](pages/jvm/tools)
+  * [GC日志分析](pages/jvm/log)
+  * [JVM调优实战](pages/jvm/action)
+* [Java 并发编程]()
+  * [多线程和并发设计原理]()
+  * [JUC]()
+  * [线程池]()
+  * [ForkJoinPool]()
+  * [多线程设计模式]()
+* [JDK 源码阅读]()
+  * [ArrayList]()
+  * [HashMap]()
+  * [ConcurrentHashMap]()
+  * [CopyOnWriArrayList]()
 * [SPI](pages/java/spi)
 * [Git](pages/java/git)
-* Maven
+* [Maven]()
+  * [标签]()
+  * [插件]()
+  * [依赖冲突]()
 * [设计模式](pages/design/)
 * 计算机网络
 * Json
   * Gson
   * fastJson
   * jackson
+* [Linux 性能优化](pages/linux/)
 
 ### 框架
+
 * MyBatis
   * 基础
   * 源码
@@ -33,6 +55,7 @@
   * [Spring AOP](pages/wait)
   * [Spring MVC](pages/wait)
   * [Spring Data](pages/wait)
+  * [Spring多次request.getReader()解决方法](pages/spring/request)
 * Spring Security
 * Spring Cloud
 * Spring Retry
@@ -55,8 +78,8 @@
 * 分布式事务
 * 分布式锁
 
-
 ### 数据库
+
 * MySql
 * Mycat
 * ShardingSphere
@@ -68,8 +91,8 @@
 * es
 * Doris
 
-
 ### 大数据
+
 * Hadoop
 * Hdfs
 * Hive
@@ -78,9 +101,8 @@
 * Storm
 * Flink
 
-
-
 ### 云
+
 * [Docker](pages/docker/)
   * Docker快速入门
     * [命令分类](pages/docker/command)
@@ -96,9 +118,9 @@
 * [K8S](pages/docker/)
 * [Jenkins](pages/docker/)
 * [APM](pages/docker/)
-* [Linux 性能优化](pages/linux/)
 
 ### 理论
+
 * 计算机组成原理
 * 加密
 * 安全
@@ -115,6 +137,7 @@
 * 程序员修养
 
 ### 扩展
+
 * Shell
 * GO
 * Python
@@ -130,8 +153,8 @@
 * 操作系统
 * 编程规范
 
-
 ### 面试
+
 * 简历
 * 内推
 
