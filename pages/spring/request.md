@@ -81,3 +81,20 @@ public class FilterConfig {
 
 ```
 
+
+### 注意
+ContentCachingRequestWrapper 只有request调用过`getReader`或`getInputStream`时才`ContentAsByteArray`有数据,
+当controller没有`@RequestBody`时使用`ContentCachingRequestWrapper`是读取不到数据的,
+需要直接调用处理
+
+```java
+        StringBuilder data = new StringBuilder();
+        String line;
+        BufferedReader reader;
+        reader = request.getReader();
+        while (null != (line = reader.readLine())) {
+            data.append(line);
+        }
+```
+
+
