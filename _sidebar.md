@@ -35,6 +35,7 @@
   * [标签]()
   * [插件]()
   * [依赖冲突]()
+* [Gradle](pages/build/conf) 
 * [设计模式](pages/design/)
 * 计算机网络
 * Json
@@ -61,7 +62,7 @@
 * Spring Retry
 * Shiro
 * [RPC](pages/rpc/rpc)
-  * Thrift
+  * [Thrift](pages/rpc/thrift)
   * gRPC
   * protobuf
   * Netty
