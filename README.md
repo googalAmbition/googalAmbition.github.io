@@ -1,144 +1,23 @@
 ## day day up
 
-以下是我在学习计算机相关知识的过程中整理的一些资料，参考了网上一些大神的文章，以及拉钩，极客时间等课程。 我把它们都做成Markdown的文章供各位同学参考，其中一部分也会以XMind的方式来进行梳理总结。
-
 **网页版阅读地址 [day day up](https://googalambition.github.io/#/home)**
 
+内容来自：
+- 读书笔记
+- 工作中实战
+- 网络课程
+- 官方文档
+- 源码
+- 优秀博客
 
-# 目录
+> 看过的书和学习过得技术,过一段时间就会忘记,很多东西需要重新学习. 特在这里记录一下
 
-### [预览](/)
+> 之前玩了一段时间游戏,对自己的要求降低了.最近卸载游戏,发现空闲时间多了起来
 
-* 推荐📚
-* 学习资源
-* 数据结构
-* 算法
-* 工具
-* 个人博客搭建
-* zsh
-* 命令行的艺术
+> 看的技术类书籍多了之后发现，很多的设计是共通的
 
-### 基础
-* JVM
-* Java 并发编程
-* JDK 源码阅读
-* Git
-* Gradle
-* Maven
-* 设计模式
-* 计算机网络
-* Shell
-* GO
-* Python
-* Kotlin
-* HTML
-* JS
-* CSS
-* Scala
-* React
-* Vue
-* Guava
-* 微信小程序
-* 程序员数学
-* 操作系统
-* 编程规范
-* Json
+> 有些灵感，不记录下来，稍纵即逝
 
+> 存粹是喜欢读书，记录一下书的内容
 
-### 框架
-* MyBatis
-  * 基础
-  * 源码
-  * MyBatis Plus
-* Spring
-  * Spring
-  * Spring IoC
-  * Spring AOP
-  * Spring MVC
-  * Spring Data
-* Spring Security
-* Spring Cloud
-* Spring Retry
-* Shiro
-* Netty
-* Thrift
-* gRPC
-* Dubbo
-* ZooKeeper
-* Kafka
-* RabbitMQ
-* RocketMQ
-* ActiveMQ
-* Tomcat
-* Nginx
-* FastDFS
-* 分布式事务
-* 分布式锁
-
-### 数据库
-* MySql
-* Mycat
-* ShardingSphere
-* Neo4j
-* Redis
-* Mongo
-* Postgre
-* Durid
-* es
-* Doris
-* OOS
-
-### 大数据
-* Hadoop
-* Hdfs
-* Hive
-* HBase
-* Spark
-* Storm
-* Flink
-
-### 云
-* Docker
-  * Docker快速入门
-    * 命令分类
-    * Docker image
-    * Docker container
-  * 核心原理
-    * 虚拟化技术
-    * Docker network
-    * Docker volumes
-    * Docker compose
-    * Docker harbor(私服)
-    * Dockerfile
-* K8S
-* Jenkins
-* APM
-* Linux 性能优化
-
-### 人工智能
-* 深度学习
-* 自然语言处理
-* 计算机视觉
-* 智能机器人
-* 自动程序设计
-* 数据挖掘
-* 神经网络
-* 机器学习
-
-### 理论
-
-* 加密
-* 安全
-* JWT
-* Oauth
-* 分布式理论
-* 系统设计
-* 技术选型
-* 推动项目
-* 程序员修养
-
-### 面试
-* 简历
-* 内推
-
-
+> 有些书前些年读过，最近又读了一次，收获颇丰
