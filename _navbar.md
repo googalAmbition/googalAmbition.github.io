@@ -13,6 +13,7 @@
   * [Git](pages/java/git)
 
 * Java
+  * [JVM](pages/jvm/) 
   * [Spring](pages/spring/)
   * [Mybatis](pages/mybatis/)
   * [SPI](pages/java/spi)
@@ -22,6 +23,9 @@
 * 读书笔记
   * [读书清单📚](pages/book)
   * [《深入理解Kafka核心设计与实战原理》](pages/kafka/)
+  * [《JVM G1源码分析和调优》](pages/jvm/)
+  * [《MySQL技术内幕 InnoDB存储引擎》](pages/mysql/)
+  * [《Redis 设计与实现》](pages/redis/)
 
 * 源码阅读
   * [设计模式](pages/design/)
@@ -33,11 +37,11 @@
   * Mybatis
   
 * 数据库
-  * MySql
+  * [MySQL](pages/mysql/)
   * Mycat
   * ShardingSphere
   * Neo4j
-  * Redis
+  * [Redis](pages/redis/)
   * Mongo
   * Postegre
   * Durid
