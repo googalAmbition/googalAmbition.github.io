@@ -4,9 +4,9 @@ window.$docsify = {
         loadSidebar: true,
         loadNavbar: '_navbar.md',
         coverpage: true,
-        // subMaxLevel: 1,
+        subMaxLevel: 1,
         auto2top: true,
-        // sidebarDisplayLevel: 4,
+        sidebarDisplayLevel: 4,
         relativePath: false,
         // themeColor: '#c30aff',
         alias: {
