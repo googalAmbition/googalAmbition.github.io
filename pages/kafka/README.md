@@ -4,8 +4,8 @@
 
 > 主要参考《深入理解Kafka核心设计与实战原理》、网络课程、kafka源码和本地调试
 > 书中源码地址 https://github.com/hiddenzzh/kafka_book_demo
-## 1. 思维导图
-## 2. 涉及的名词
+## 📚1. 思维导图
+## 📚2. 涉及的名词
 - Producer：生产者，负责创建消息
   - 三种发送模
     - fire-and-forget：发后即忘
@@ -39,7 +39,7 @@
   - 分区Leader选举：按照AR集合顺序查找第一个存活且在ISR集合中的副本
 fsync：同步刷盘
 
-## 3. 重要知识点
+## 📚3. 重要知识点
 Consumer：
 - 消费支持正则表达式
 - 位移提交：旧版存储在Zookeeper中，新版存储在内部主题_consumer_offsets
@@ -136,13 +136,13 @@ Consumer：
 - 消息审计：生产者、存储、消费整个过程对消息个数和延迟的审计，一次检测数据是否丢失，重复，延迟
 - kafka与Spark，Flink集成
 
-## 4. 关联其他知识点
+## 📚4. 关联其他知识点
 
-## 5. 源码阅读
+## 📚5. 源码阅读
 生产者
 重点类
 RecordAccumulator
 
 <img src="/pages/kafka/04_KafkaProducer源码分析%20(10).jpg" alt="" >
 
-## 6. 常用配置参数
+## 📚6. 常用配置参数
