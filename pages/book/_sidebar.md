@@ -1,0 +1,5 @@
+* [读书清单📚](pages/book/book)
+* [《深入理解Kafka核心设计与实战原理》](pages/book/kafka)
+* [《JVM G1源码分析和调优》](pages/book/G1)
+* [《MySQL技术内幕 InnoDB存储引擎》](pages/book/mysql)
+* [《Redis 设计与实现》](pages/book/redis)

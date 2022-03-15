@@ -12,7 +12,7 @@
 * 开发工具
   * [Git](pages/java/git)
 
-* Java
+* [Java](pages/java/)
   * [JVM](pages/jvm/) 
   * [Spring](pages/spring/)
   * [Mybatis](pages/mybatis/)
@@ -20,12 +20,7 @@
   * [Maven]()
   * [Gradle](pages/build/conf)
 
-* 读书笔记
-  * [读书清单📚](pages/book)
-  * [《深入理解Kafka核心设计与实战原理》](pages/kafka/)
-  * [《JVM G1源码分析和调优》](pages/jvm/G1)
-  * [《MySQL技术内幕 InnoDB存储引擎》](pages/mysql/)
-  * [《Redis 设计与实现》](pages/redis/)
+* [读书笔记](pages/book/)
 
 * 源码阅读
   * [设计模式](pages/design/)
